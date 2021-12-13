@@ -6,7 +6,7 @@ class Atm:
         print("ur balance is 10000")
     def withdrawl(self, amount):
         new_amount=10000-amount
-        print("u have withdrawn amount "+str(amount)+".ur remaining balance is "+str(new_amount)
+        print("u have withdrawn amount "+str(amount)+".ur remaining balance is "+str(new_amount))
 def main():
     card_number=input("insert your card number:")
     pin_number=input("enter your pin number")
